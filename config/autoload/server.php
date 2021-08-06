@@ -17,13 +17,15 @@ return [
     'mode' => SWOOLE_PROCESS,
     'servers' => [
         [
-            'name' => 'http',
-            'type' => Server::SERVER_HTTP,
+            'name' => 'backend',
+            'type' => Server::SERVER_WEBSOCKET,
             'host' => '0.0.0.0',
-            'port' => 9501,
+            'port' => 65233,
             'sock_type' => SWOOLE_SOCK_TCP,
             'callbacks' => [
-                Event::ON_REQUEST => [Hyperf\HttpServer\Server::class, 'onRequest'],
+                Event::ON_HAND_SHAKE => ['Backend', 'onHandShake'],
+                Event::ON_MESSAGE => ['Backend', 'onMessage'],
+                Event::ON_CLOSE => ['Backend', 'onClose'],
             ],
         ],
     ],
