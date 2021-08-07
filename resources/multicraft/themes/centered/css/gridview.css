@@ -1,0 +1,66 @@
+.grid-view-loading
+{
+    background:url("../images/gridview/loading.gif") no-repeat;
+}
+
+.grid-view table.items th a.asc
+{
+    background:url("../images/icons/up.png") right center no-repeat;
+    padding-right: 15px;
+}
+
+.grid-view table.items th a.desc
+{
+    background:url("../images/icons/down.png") right center no-repeat;
+    padding-right: 15px;
+}
+
+.grid-view .link-column img
+{
+    border: 0;
+}
+
+.grid-view .button-column
+{
+    text-align: center;
+    width: 60px;
+}
+
+.grid-view .button-column img
+{
+    border: 0;
+}
+
+.grid-view .checkbox-column
+{
+    width: 15px;
+}
+
+.grid-view .summary
+{
+    margin: 0 0 5px 0;
+    text-align: right;
+}
+
+.grid-view .pager
+{
+    margin: 5px 0 0 0;
+    text-align: right;
+}
+
+.grid-view .empty
+{
+    font-style: italic;
+}
+
+.grid-view .filters input,
+.grid-view .filters select
+{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.ftp_access {
+    width: auto;
+    display: inline;
+}

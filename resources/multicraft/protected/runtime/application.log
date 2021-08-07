@@ -1,0 +1,97 @@
+2021/08/02 20:30:28 [error] [system.db.CDbCommand] [User , 113.234.220.75] Error in preparing SQL: select count(*) from `server_config`
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:28 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:28 [error] [system.db.CDbCommand] [User , 113.234.220.75] Error in preparing SQL: select count(*) from `server_config`
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (298)
+2021/08/02 20:30:28 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (298)
+2021/08/02 20:30:44 [error] [system.db.CDbCommand] [User , 113.234.220.75] Error in preparing SQL: select count(*) from `server_config`
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:44 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:44 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_panel.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:44 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_panel.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (298)
+2021/08/02 20:30:47 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_panel.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (294)
+2021/08/02 20:30:47 [error] [system.db.CDbCommand] [User , 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_panel.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (312)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (298)
+2021/08/02 20:30:55 [info] [application] [User 1, 113.234.220.75] Successful login: admin, forwarding to: Array
+(
+    [0] => install
+    [step] => panel
+)
+
+in /www/wwwroot/mu/protected/controllers/SiteController.php (100)
+in /www/wwwroot/mu/install.php (21)
+2021/08/02 20:31:08 [error] [system.db.CDbCommand] [User 1, 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_daemon.server' doesn't exist. The SQL statement executed was: select count(*) from `server`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (345)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (303)
+2021/08/02 20:31:15 [error] [system.db.CDbCommand] [User 1, 113.234.220.75] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mu_daemon.server' doesn't exist. The SQL statement executed was: select count(*) from `server`.
+in /www/wwwroot/mu/protected/controllers/InstallController.php (345)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (430)
+in /www/wwwroot/mu/protected/controllers/InstallController.php (303)
+2021/08/02 20:33:32 [info] [application] [User 1, 113.234.220.75] Using SHA512 password
+2021/08/02 20:33:32 [info] [application] [User 1, 113.234.220.75] Updated user 1
+2021/08/02 20:33:32 [info] [application] Invalid cookie token for admin. Logging out.
+2021/08/02 20:33:41 [info] [application] [User 1, 113.234.220.75] Successful login: admin, forwarding to: /index.php?r=server/index&my=1
+2021/08/02 20:33:58 [info] [application] [User 1, 113.234.220.75] Panel setting "theme" changed to "centered"
+2021/08/02 20:33:58 [info] [application] [User 1, 113.234.220.75] Panel setting "show_repairtool" changed to "none"
+2021/08/02 20:33:58 [info] [application] [User 1, 113.234.220.75] Panel setting "cpu_display" changed to "core"
+2021/08/02 20:33:58 [info] [application] [User 1, 113.234.220.75] Panel setting "ram_display" changed to ""
+2021/08/02 20:33:58 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:34:01 [info] [application] [User 1, 113.234.220.75] Panel setting "theme" changed to "classic"
+2021/08/02 20:34:01 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:34:04 [info] [application] [User 1, 113.234.220.75] Panel setting "theme" changed to "flat-dark"
+2021/08/02 20:34:04 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:34:10 [info] [application] [User 1, 113.234.220.75] Panel setting "theme" changed to "flat-light"
+2021/08/02 20:34:10 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:34:17 [info] [application] [User 1, 113.234.220.75] Panel setting "theme" changed to "flat-dark"
+2021/08/02 20:34:17 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:34:49 [info] [application] [User 1, 113.234.220.75] Panel setting "user_theme" changed to "1"
+2021/08/02 20:34:49 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:35:46 [info] [application] [User 1, 113.234.220.75] Panel setting "kill_button" changed to "superuser"
+2021/08/02 20:35:46 [info] [application] [User 1, 113.234.220.75] Panel setting "cpu_display" changed to ""
+2021/08/02 20:35:46 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 20:41:48 [info] [application] [User 1, 113.234.220.75] Successful login: admin, forwarding to: /index.php?r=server/index&my=1
+2021/08/02 20:46:15 [error] [exception.CHttpException.404] [User , 103.207.71.57] CHttpException: Unable to resolve the request "site". in /www/wwwroot/mu/protected/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /www/wwwroot/mu/protected/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /www/wwwroot/mu/protected/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /www/wwwroot/mu/index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2021/08/02 20:54:50 [info] [application] [User 1, 113.234.220.75] Panel setting "language" changed to "zh"
+2021/08/02 20:54:50 [info] [application] [User 1, 113.234.220.75] Updating panel configuration
+2021/08/02 21:02:52 [error] [exception.CHttpException.404] [User , 199.19.224.165] CHttpException: Unable to resolve the request "site". in /www/wwwroot/mu/protected/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /www/wwwroot/mu/protected/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /www/wwwroot/mu/protected/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /www/wwwroot/mu/index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/config/getuser?index=0
+---
